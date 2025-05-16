@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - \
   - {t: ']', s: '}'}
   - MUTE
   - $$mdi:apple-keyboard-shift$$
@@ -60,11 +60,11 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - $$mdi:keyboard-space$$
   - {t: '=', s: +}
   - layer1
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', s: _}
   layer1:
   - {t: '`', s: '~'}
   - F1
